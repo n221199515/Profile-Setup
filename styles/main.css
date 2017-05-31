@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header{
+  text-align: center;
+}
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.inner {
+  height:480px;
+  width: 800px;
+}
+
+section {
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 0;
+}
+h2{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+fieldset{
+  border: none;
+}
+.user{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+  padding: 0;
+}
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+#info-inner{
+  flex: 1 1 45%;
+  margin:10px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+input[type="text"]{
+  width:100%;
+  height:35px;
+  margin-top: 10px;
+}
+input[type="email"]{
+  width:100%;
+  height:35px;
+  margin-top: 10px;
+}
+input[type="number"]{
+  width:100%;
+  height:35px;
+  margin-top: 10px;
+}
+input[type="number"]{
+  width:100%;
+  height:35px;
+  margin-top: 10px;
+}
+.upload{
+  display: flex;
+  padding:0px;
+}
+.upload_pic{
+  flex: 1 1 44%;
+}
+.sign_up{
+  text-align: center;
+  flex: 1 1 44%;
+  padding-top: 5px;
+}
+input[type="file"]{
+  padding-top: 15px;
+  font-size: 1em;
+}
+.button{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  height:40px;
+  width:350px;
+  padding: 0px 0px;
+  font-size: 1em;
+
+}

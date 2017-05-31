@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section class="inner">
+      <header>
+        <h2>Sign up</h2>
+      </header>
+      <form action="http://foo.com" method="POST">
+        <fieldset>
+          <section class="user">
+            <div class="user_inner">
+              <input type="radio" name="user" value="admin" >
+              <label for="admin">admin</label>
+            </div>
+            <div>
+              <input type="radio" name="user" value="personal" checked>
+              <label for="personal">personal</label>
+            </div>
+            <div>
+              <input type="radio" name="user" value="guest" >
+              <label for="guest">guest</label>
+            </div>
+          </section>
+          <section class="info">
+            <div id="info-inner">
+              <label for="name">name</label>
+              <input type="text" name="name"  >
+            </div>
+            <div id="info-inner">
+              <label for="email">email address</label>
+              <input type="email" name="email"  >
+            </div>
+            <div id="info-inner">
+              <label for="password">password</label>
+              <input type="number" name="password"  >
+            </div>
+            <div id="info-inner">
+              <label for="confirmed_psw">confirm password</label>
+              <input type="number" name="password" >
+            </div>
+        </section>
+        <section class="upload">
+          <div class=upload_pic>
+            <legend> profile picture </legend>
+            <input type="file" id="file_upload">
+          </div>
+          <div class="sign_up">
+            <button type="submit" class="button"/>Sign up</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
